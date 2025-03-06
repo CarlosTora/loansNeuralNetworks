@@ -1,0 +1,59 @@
+Configuraciones probadas:
+
+1. Modelo con 4 neuronas por capa, 2 capas, sin Dropout, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+2. Modelo con 4 neuronas por capa, 2 capas, Dropout 0.2, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+3. Modelo con 4 neuronas por capa, 2 capas, sin Dropout, optimizador Adam, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+4. Modelo con 4 neuronas por capa, 2 capas, Dropout 0.2, optimizador Adam, batch 48: 
+Coste final: 0.6932 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+5. Modelo con 8 neuronas por capa, 2 capas, sin Dropout, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+6. Modelo con 8 neuronas por capa, 2 capas, Dropout 0.2, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+7. Modelo con 8 neuronas por capa, 2 capas, sin Dropout, optimizador Adam, batch 48: 
+Coste final: 37.0437 (entrenamiento), 37.0890 (test)
+Precision final: 0.5089 (entrenamiento), 0.5119 (test)
+
+8. Modelo con 8 neuronas por capa, 2 capas, Dropout 0.2, optimizador Adam, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+9. Modelo con 12 neuronas por capa, 3 capas, sin Dropout, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+10. Modelo con 12 neuronas por capa, 3 capas, Dropout 0.2, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+11. Modelo con 12 neuronas por capa, 3 capas, sin Dropout, optimizador Adam, batch 48: 
+Coste final: 0.7249 (entrenamiento), 0.7246 (test)
+Precision final: 0.5818 (entrenamiento), 0.5753 (test)
+
+12. Modelo con 12 neuronas por capa, 3 capas, Dropout 0.2, optimizador Adam, batch 48: 
+Coste final: 0.6932 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+13. Modelo con 4 neuronas por capa, 4 capas, sin Dropout, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+14. Modelo con 4 neuronas por capa, 4 capas, Dropout 0.2, optimizador SGD, batch 48: 
+Coste final: 0.6931 (entrenamiento), 0.6932 (test)
+Precision final: 0.5005 (entrenamiento), 0.4979 (test)
+
+Se ha escogido el modelo 11
